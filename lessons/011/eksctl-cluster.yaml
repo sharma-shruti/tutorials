@@ -9,6 +9,6 @@ nodeGroups:
   - name: nodes-general
     labels:
         role: workers
-    instanceType: t2.small
+    instanceType: t2.micro
     desiredCapacity: 1
     volumeSize: 20
